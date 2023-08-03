@@ -42,7 +42,7 @@ for (let i = 0; i < menu.length; i++) {
             links.style.right = 0;
 
             menu[1].addEventListener("click", () => {
-                links.style.right = "-250px";
+                links.style.right = "-500px";
             })
     })
 }
