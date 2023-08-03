@@ -20,7 +20,7 @@
     nav .links {
         position: fixed;
         top: 0;
-        right: -250px;
+        right: -500px;
         width: 250px;
         height: 100vh;
         justify-content: flex-start;
