@@ -1,0 +1,62 @@
+/* navigation responsive ***************************************/
+
+@container nav (width <= 600px) {
+    
+    nav span.material-symbols-outlined {
+        display: block;
+    }
+    
+    nav span.menu {
+        order: 2;
+    }
+    
+    nav span.close {
+        width: 45%;
+        text-align: right;
+        margin-top: 15px;
+        color: #fff;
+    }
+    
+    nav .links {
+        position: absolute;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        justify-content: flex-start;
+        gap: 50px;
+        flex-direction: column;
+        background: #000;
+        z-index: 100;
+        transition: right 200ms;
+    }
+    
+    .links a {
+        width: 50%;
+        background: #F6A44E;
+        color: #fff;
+        z-index: 200;
+        transition: background 200ms;
+    }
+    
+    .links a:hover {
+        color: #fff;
+        background: #8f571b;
+    }
+}
+
+
+
+/* our discount ***************************************/
+
+@container our-discount (width <=550px) {
+    .our-discount .discount-items {
+        gap: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .discount-items img {
+        max-width: 100%;
+    }
+}
